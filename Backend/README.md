@@ -12,13 +12,6 @@ This is a Python-based AI assistant inspired by *Jarvis*, capable of:
 This agent uses LiveKit that is 100% free!
 
 ---
-
-## 📽️ Tutorial Video
-
-Before you start, **make sure to follow this tutorial to set up the voice agent correctly**:  
-🎥 [Watch here](https://youtu.be/An4NwL8QSQ4?si=v1dNDDonmpCG1Els)
-
----
 1. Create the Virtual Envrionment first!
 2. Activate it
 3. Install all the required libraries in the requirements.txt file
