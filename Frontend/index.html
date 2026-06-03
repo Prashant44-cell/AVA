@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friday - AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="header-content">
+                <div class="assistant-info">
+                    <div class="assistant-avatar">🤖</div>
+                    <div class="assistant-details">
+                        <h1>Friday</h1>
+                        <p>Your Technical Voice Assistant</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button id="clearBtn" class="header-btn" title="Clear conversation">
+                        <span>🗑️</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Messages Area -->
+        <div class="chat-messages" id="chatMessages">
+            <div class="message assistant-message welcome-message">
+                <div class="message-avatar">🤖</div>
+                <div class="message-content">
+                    <p>Hi, I'm Friday, your Technical Voice Assistant. How can I assist you today?</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="chat-input-area">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    placeholder="Ask me anything... (weather, search, etc.)"
+                    autocomplete="off"
+                >
+                <button id="sendBtn" class="send-btn" title="Send message">
+                    <span>➤</span>
+                </button>
+            </div>
+            <div class="input-hints">
+                <span>💡 Try: "What's the weather in London?" or "Search for Python tutorials"</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

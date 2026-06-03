@@ -1,0 +1,6 @@
+flask==3.0.0
+flask-cors==4.0.0
+requests==2.31.0
+langchain_community==0.0.10
+duckduckgo-search==3.9.3
+python-dotenv==1.0.0

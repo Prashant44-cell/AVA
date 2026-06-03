@@ -40,7 +40,7 @@ async def entrypoint(ctx: agents.JobContext):
             # LiveKit Cloud enhanced noise cancellation
             # - If self-hosting, omit this parameter
             # - For telephony applications, use `BVCTelephony` for best results
-            video_enabled=True,
+            # video_enabled=True,
             noise_cancellation=noise_cancellation.BVC(),
             # temperature = 0.8,
         ),

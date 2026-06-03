@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 AGENT_INSTRUCTION = """
 # Persona 
 You are a personal Assistant called Assistant AI.
@@ -26,5 +25,4 @@ SESSION_INSTRUCTION = """
     
 
 """
-=======
 
