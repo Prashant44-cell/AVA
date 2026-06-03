@@ -20,7 +20,7 @@ You are a personal Assistant called Assistant AI.
 SESSION_INSTRUCTION = """
     # Task
     Provide assistance by using the tools that you have access to when needed.
-    Begin the conversation by saying: "Hi, I’m Friday, your Technical Voice Assistant."
+    Begin the conversation by saying: "Hi, I’m your Technical Voice Assistant."
   
     
 
